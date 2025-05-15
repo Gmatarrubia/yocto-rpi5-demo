@@ -16,6 +16,7 @@ podman run \
     --ipc=host \
     --network=host \
     --publish-all \
+    --userns=keep-id \
     --name yocto-env \
     --hostname yocto-builder \
     --mount type=bind,source="${repoPath}",target=/yocto \
