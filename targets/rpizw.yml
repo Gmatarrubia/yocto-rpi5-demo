@@ -1,0 +1,9 @@
+header:
+  version: 18
+  includes:
+    - include/myos.yml
+    - include/common.yml
+    - include/rpi-common.yml
+
+machine: raspberrypi0-wifi
+

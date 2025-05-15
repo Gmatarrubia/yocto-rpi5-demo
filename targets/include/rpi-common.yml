@@ -1,0 +1,8 @@
+header:
+  version: 18
+
+repos:
+  meta-raspberrypi:
+    url: https://github.com/agherzan/meta-raspberrypi
+    path: sources/meta-raspberrypi
+    branch: scarthgap

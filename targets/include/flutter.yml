@@ -1,0 +1,10 @@
+  repos:
+    meta-clang:
+      url: https://github.com/kraj/meta-clang
+      path: sources/meta-clang
+      branch: scarthgap
+
+    meta-flutter:
+      url: https://github.com/Gmatarrubia/meta-flutter.git
+      path: sources/meta-flutter
+      branch: scarthgap

@@ -1,0 +1,7 @@
+header:
+  version: 18
+  includes:
+    - include/myos.yml
+    - include/common.yml
+
+machine: qemuarm
