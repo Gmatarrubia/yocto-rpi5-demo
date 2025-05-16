@@ -1,3 +1,6 @@
+  header:
+  version: 18
+
   repos:
     meta-clang:
       url: https://github.com/kraj/meta-clang

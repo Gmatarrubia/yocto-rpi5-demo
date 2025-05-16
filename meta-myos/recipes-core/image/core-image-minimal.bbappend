@@ -32,4 +32,5 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     python3 \
     python3-pip \
     nano \
+    podman \
 "
