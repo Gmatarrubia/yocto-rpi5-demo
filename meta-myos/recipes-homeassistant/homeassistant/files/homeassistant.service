@@ -1,13 +1,15 @@
 [Unit]
 Description=Home Assistant
-After=network.target
 After=podman.target
-After=nss-lookup.target
+After=network.target
 
 [Service]
 Type=forking
 User=@HOMEASSISTANT_USER@
+ExecStartPre=/bin/sleep 10
 ExecStart="@HOMEASSISTANT_DIR@/startHomeassistant.sh"
+Restart=on-failure
+RestartSec=10
 
 [Install]
 WantedBy=multi-user.target
