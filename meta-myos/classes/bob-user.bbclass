@@ -9,5 +9,6 @@ USERADD_PACKAGES = "${PN}"
 USERADD_PARAM:${PN} = " \
 	--home ${BOB_USER_PATH} \
 	--groups users \
+	--shell /bin/sh \
 	--user-group ${BOB_USER_NAME}\
 "
