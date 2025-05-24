@@ -1,9 +1,9 @@
 header:
   version: 18
   includes:
-    - include/myos.yml
-    - include/common.yml
-    - include/rpi-common.yml
+    - targets/include/myos.yml
+    - targets/include/common.yml
+    - targets/include/rpi-common.yml
 
 machine: raspberrypi3
 

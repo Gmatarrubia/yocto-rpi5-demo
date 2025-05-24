@@ -1,5 +1,7 @@
 header:
   version: 18
+  includes:
+    - targets/include/virtualization.yml
 
 repos:
   meta-myos:

@@ -6,7 +6,6 @@ targetsPath="$repoPath/targets"
 # Script arguments handle
 __bitbake_cmd=()
 __only_shell=
-__wifi_settings_interactive=
 __debug=
 __parallel_limit=
 __cores=
@@ -26,9 +25,6 @@ while (( $# )); do
         -m|--machine)
             __conf_name="$2"
             shift
-            ;;
-        -wi|--wifi)
-            __wifi_settings_interactive=1
             ;;
         -d|--debug)
             __debug=":${targetsPath}/include/debug.yml"

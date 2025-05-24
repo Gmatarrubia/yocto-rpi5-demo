@@ -1,6 +1,4 @@
-require conf/include/bob-user-common.inc
-
-inherit extrausers
+inherit bob-user extrausers
 
 EXTRA_USERS_PARAMS = " \
 	groupadd -g 1011 users;\
@@ -24,12 +22,9 @@ CORE_IMAGE_EXTRA_INSTALL += " \
     procps \
     tzdata \
     canutils \
-    usbutils \
     iw \
     wpa-supplicant \
     xdg-user-dirs \
-    htop \
-    python3 \
-    python3-pip \
     nano \
+    podman-homeassistant \
 "
