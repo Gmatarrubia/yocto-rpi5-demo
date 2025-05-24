@@ -2,6 +2,7 @@
 Description=Home Assistant
 After=network.target
 After=podman.target
+After=nss-lookup.target
 
 [Service]
 Type=forking
